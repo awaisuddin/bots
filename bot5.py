@@ -12,8 +12,8 @@ import requests as req
 
 i=0
 bot = Bot() 
-PhotoPath = "C:/PythonBots/Instagram/res/awazcafe" # Change Directory to Folder with Pics that you want to upload
-IGUSER = "awazcafe" 
+PhotoPath = "C:/PythonBots/Instagram/res/chaiflixmovies" # Change Directory to Folder with Pics that you want to upload
+IGUSER = "chaiflixmovies" 
 PASSWD = "z78692969" 
 #PhotoHashtag
 IGCaption = " "
@@ -31,13 +31,6 @@ while(1):
     bot.upload_photo(photo,caption=IGCaption)
     send2trash.send2trash(photo+str("REMOVE_ME"))
     r = req.get('https://maker.ifttt.com/trigger/awazcafe/with/key/fjUKTebijTWWbwEXB8-_kjolCPuTvBhASMRAIPeHJP-')
-    time.sleep(43200)
-    i=i+1
-    time.sleep(20)
-
-
-
-
     time.sleep(43200)
     i=i+1
     time.sleep(20)
